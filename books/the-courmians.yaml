@@ -1,0 +1,39 @@
+book:
+  lang: en
+  datadir: ".."
+  pictures: yes
+  template: courmians.tex
+  encoding: utf8
+chords:
+  show: yes
+  diagramreminder: all
+  repeatchords: yes
+  lilypond: yes
+
+content:
+  - "the_eagles/hotel_california.sg"
+  - "ben_e_king/stand_by_me.sg"
+  - "traditionnel/bella_ciao.sg"
+  - "elvis_presley/can_t_help_falling_in_love.sg"
+  - "the_kelly_family/an_angel.sg"
+  - "the_judds/love_can_build_a_bridge.sg"
+  - "mr_big/to_be_with_you.sg"
+  - "jeff_buckley/hallelujah.sg"
+  - "metallica/nothing_else_matters.sg"
+
+template:
+  patacrep.tex:
+    url: ""
+    email: "laurent.stacul@gmail.com"
+    picture: "img/blason_courmes"
+    subtitle: "Orchestre Cacophonique de Courmes"
+    version: "0.1"
+    footer: ""
+    bgcolor:
+      note: "FFFDB3"
+  default.tex:
+    author: "Laurent Stacul"
+    title: "The Courmians"
+
+authors:
+  separators: ["and", "et"]
